@@ -1,0 +1,79 @@
+
+  .discount{
+     color: green;
+  }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+#heading{
+  background-color: rgb(241, 208, 165);
+}
+#star{
+  width: 20px;
+  height: 20px;
+ 
+  
+}
+#eStar{
+  width: 20px;
+  height: 20px;
+
+}
+/* #rightbut{
+    font-size: 12px;
+    position:absolute;
+    left: 97%;
+} */
+.but{
+
+    width: 50px;
+    height: 50px;
+    background-color: rgb(123, 143, 154);
+    border-radius: 100%;
+    color: #eee;
+}
+.but:hover{
+    background-color: rgb(39, 170, 39);
+}
+
+.swiper-button-next::after,
+    .swiper-button-prev::after {
+      font-size: 20px; 
+      color:cornsilk;
+    }
+
+
+
+
+
+/* swiper style */
+
+
